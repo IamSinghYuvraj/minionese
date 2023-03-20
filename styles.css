@@ -1,0 +1,119 @@
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+:root{
+    --primary-color:#fde047;
+    --secondary-color:#262626;
+    --light-color:#e5e7eb;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0px;
+}
+#header {
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    color: black;
+    background-color: var(--primary-color);
+    margin: 0;
+}
+
+textarea{
+    border: 1px solid black;
+    height: 10vh;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    display: block;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+}
+.placeholder {
+    font-family: "Noto Sans", sans-serif;
+    color: var(--secondary-color);
+}
+
+img {
+    max-width: 150px;
+    display: block;
+    margin: auto;
+}
+
+
+#output{
+    border: 1px solid black;
+    height: 10vh;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    display: block;
+    min-height: 20vh;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: large;
+}
+
+button {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: none;
+    color: black;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+.container {
+    text-align: center;
+}
+
+.container-center {
+    padding: 0rem 1rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: black;
+    border-top-right-radius:1rem;
+    border-top-left-radius:1rem;
+    margin: 0;
+    font-size: 30px;
+    
+}
+.footer.footer-header{
+    font-weight:bold;
+    font-size: large;
+}
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.footer_icon {
+    color: var(--light-color);
+    margin: 0 1rem;
+    
+}
+
+.footer_icon:hover {
+    color:white;
+}
+
+h3 {
+    font-size: 20px;
+    padding: 1rem;
+}
+
